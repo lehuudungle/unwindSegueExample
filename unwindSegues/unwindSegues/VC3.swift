@@ -9,7 +9,7 @@
 import UIKit
 
 class VC3: UIViewController {
-
+    var name = "toi la VC3"
     override func viewDidLoad() {
         super.viewDidLoad()
     }

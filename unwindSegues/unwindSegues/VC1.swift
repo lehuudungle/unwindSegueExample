@@ -18,6 +18,9 @@ class VC1: UIViewController {
         performSegue(withIdentifier: "segueToVC2", sender: self)
     }
     
-    @IBAction func unwindToVC1(segue:UIStoryboardSegue) { }
+    @IBAction func unwindToVC1(segue:UIStoryboardSegue) {
+        let vc3 = segue.source as! VC3
+        print(vc3.name)
+    }
 
 }
